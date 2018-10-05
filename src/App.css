@@ -1,0 +1,40 @@
+.App-header {
+  z-index: 32;
+  padding: 12px 0;
+  color: hsla(0,0%,100%,0.75);
+  background-color: #24292e;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+/* Container Section */
+.container {
+  width: 980px;
+  margin: 15px auto;
+}
+/* Gist Item Section */
+.gist-item {
+  padding: 15px 0 0;
+}
+/* .author-info */
+.author-info {
+  color: #333333;
+  padding-bottom: 15px;
+}
+.author-info img {
+  border-radius: 3px; 
+  margin-right: 5px;
+}
+.author-info a {
+  color: #0366d6;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.gist {
+  max-height: 220px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
